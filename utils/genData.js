@@ -1,8 +1,8 @@
 const { Google } = require("../models");
 // console.log(keyTypeof(Google));
 let google = new Google({
-  input: "",
-  vie: "Bản dịch",
+  input: "computer",
+  vie: "máy tính",
   meaning: [
     {
       keyType: "Danh từ",
